@@ -1,0 +1,25 @@
+{
+    "editor.fontSize": 18,
+    "editor.fontFamily": "\"Ricty Diminished Discord\", Consolas, 'Courier New', monospace",
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 0,
+    "python.pythonPath": "",
+    "python.linting.flake8Enabled": true,
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.boxModel": "warning",
+    "css.lint.float": "warning",
+    "css.lint.idSelector": "warning",
+    "css.lint.ieHack": "warning",
+    "css.lint.importStatement": "warning",
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "terminal.integrated.fontSize": 18,
+}

@@ -1,0 +1,16 @@
+{
+    "brackets-eslint.gutterMarks": true,
+    "brackets-eslint.useLocalESLint": false,
+    "fonts.fontSize": "16px",
+    "fonts.fontFamily": "'Source Code Pro medium', 'SourceCodePro-Medium', meiryo, ＭＳ ゴシック, 'MS Gothic', monospace",
+    "themes.theme": "rain.monokai-dark-soda",
+    "custom.work.useIconsOfCustomWork": true,
+    "custom.work.blueish": true,
+    "custom.work.moveToolbarToSidebar": true,
+    "custom.work.autoHideTheTabmenu": true,
+    "custom.work.halfcircle.sidebar": true,
+    "bb.beautify.onSave": true,
+    "brackets-indent-guides.enabled": true,
+    "useTabChar": false,
+    "spaceUnits": 2
+}

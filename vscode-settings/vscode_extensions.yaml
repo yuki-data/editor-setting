@@ -1,0 +1,54 @@
+# 190214 visual studio codeの拡張機能
+html + css + js:
+ - HTML CSS Support
+ - HTML Snippets
+ - IntelliSense for CSS class names in HTML
+ - HTMLHint
+ - prettier # cssは標準でフォーマッターがないので、必要になった
+ # - CSSLint # デフォルトでリンターがあったので不要
+ # - stylelint # cssの標準のリンターで不満があればインストールする
+ # - JavaScript Standard Style # eslintと比較予定
+ - eslint
+ - Live Server
+python:
+ - autodocstring
+ - python
+general:
+ - sublime text keymap
+ - japanese language pack
+
+# ## visual studio codeでeslintを使う方法
+# 1. visual studio codeのeslintをインストール
+# 2. npm install -g eslintでnpmパッケージをインストール
+# 3. 作業するフォルダでnpm init -yとしてpackage.jsonを生成
+# 4. eslint --initで対話的に設定し、作業フォルダに.eslintrc.jsonを置く。
+# 
+# ## visual studio codeのformatter, linter機能を使うためにインストールするライブラリ
+# autopep8
+# flake8
+# pylint
+
+# ## 使用するconda環境にツールをインストールする：
+# conda install autopep8
+# conda install pylint
+# conda install flake8
+
+# ## vscodeのリンターの設定
+# vscodeの設定にてpython linting enabledで検索する。
+# デフォルトはpylint。
+# pylintとflake8の両方を使うので、
+# Flake8EnabledをTrueにしておく。
+# python lint on saveの項目がTrueなのを確認する。
+
+# ## vscodeのフォーマッター設定
+# python formatting providerの項目でautopep8を選択（デフォルト）。
+# もしblackを使うならblackを選択。
+
+# もし、blackを使うには、
+# pip install black
+
+# もし、yapfを使うには、
+# conda install yapf
+
+# saveのたびにフォーマットをかけるには、
+# format on saveの項目をTrueにする。

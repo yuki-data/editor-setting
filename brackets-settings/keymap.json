@@ -1,0 +1,8 @@
+{
+    "documentation": "https://github.com/adobe/brackets/wiki/User-Key-Bindings",
+    "overrides": {
+        "Ctrl-Shift-G": "io.emmet.wrap_with_abbreviation",
+        "Alt-D": "view.toggleSidebar",
+        "Alt-S": "redmunds.show-shortcuts.view.shortcuts"
+    }
+}

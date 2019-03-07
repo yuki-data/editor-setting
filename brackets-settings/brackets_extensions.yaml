@@ -1,0 +1,20 @@
+extensions:
+ - Extension Rating
+ - Beautify
+ - emmet
+ - Display Shortcuts
+ - WordHint
+ - Beautify
+ - CSSFier
+ - HTML Block Selector
+ - Overscroll
+ - Paste and Indent
+ - BluePrint Beta
+ - Indent Guides
+ - More HTML5 Code Hints
+ - Brackets CSS Class Code hint
+ - PHP SmartHints
+ - Brackets Wordpress Hint
+ - Brackets WordPress Functions Hints
+theme:
+ - Monokai Dark Soda
